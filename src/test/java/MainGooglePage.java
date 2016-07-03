@@ -15,7 +15,7 @@ public class MainGooglePage {
     public static final By locatorStartSearch = By.name("btnG");
     public static final By locatorAllLink2 = By.xpath(".//*[@id='rso']/div[2]/li/div/h3/a");
     public static final By locatorAllLink = By.xpath(".//*[@id='rso']//h3/a");
-
+    public String n = "hello world";
     public MainGooglePage(WebDriver driver) {
         this.driver = driver;
     }
